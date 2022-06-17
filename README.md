@@ -2,7 +2,7 @@
 
 Unity plugin that generates game levels.
 
-The generator is based on the collapse algorithm of the wave function.
+The generator is based on the wave function collapse algorithm.
 
 ## Using the generator  
 
