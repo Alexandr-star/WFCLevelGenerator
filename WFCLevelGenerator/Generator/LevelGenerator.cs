@@ -18,7 +18,6 @@ public class LevelGenerator : MonoBehaviour
 	public int seed = 0;
 	public bool periodic = false;
 	public int iterations = 0;
-	public bool incremental;
 	public SimpleTiledWFCModel WfcModel = null;
 	public bool instantTilemapCollider;
 
@@ -30,14 +29,6 @@ public class LevelGenerator : MonoBehaviour
 	{
 		Generate();
 		Run();
-	}
-
-	void Update()
-	{
-		if (incremental)
-		{
-			Run();
-		}
 	}
 
 	/// <summary>
